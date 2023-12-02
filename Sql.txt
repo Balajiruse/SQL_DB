@@ -1,0 +1,13 @@
+
+CREATE TABLE students (
+    id INT PRIMARY KEY,
+    name VARCHAR(50),
+    age INT,
+    grade CHAR(1)
+);
+
+INSERT INTO students (id, name, age, grade)
+VALUES 
+    (1, 'Balaji', 23, 'A'),
+    (2, 'Kasini', 20, 'B'),
+    (3, 'Sanjay', 27, 'B');
